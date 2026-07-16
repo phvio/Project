@@ -39,3 +39,10 @@ git rm --cached [filename] # 从暂存区中删除
 git commit -m [version message] [filename]
 ```
 
+## 查看版本信息
+
+```shell
+git reflog # 查看日志
+git log # 查看详细日志
+```
+
