@@ -9,6 +9,8 @@ brew install git
 brew doctor
 ```
 
+> 参考链接：https://git-scm.com/install/mac
+
 ## 设置用户签名
 
 ```shell
@@ -107,3 +109,26 @@ git pull [alias] [branch name] # branch name是指远程库的分支
 git clone [address] 
 ```
 
+> 以上均为尚硅谷学习视频内容：[尚硅谷Git教程](https://www.bilibili.com/video/BV1vy4y1s7k6/?spm_id_from=333.1387.search.video_card.click&vd_source=c3eabf90f104980ac2380e479493da74)
+
+****
+
+# 常见的场景
+
+## 1. Git删除GitHub上的某个文件/文件夹
+
+```shell
+## step1: 删除文件
+git rm [filename]/git rm -r [directory name] # 删除文件或文件夹
+git rm --cached [filename]/git rm -r -- cached [directory] #需要保留工作区文件时需要加上 --cached参数
+
+## setp2: 提交到本地仓库
+git commit -m "delete"
+
+## step3: 推送到远程库
+git push Project main
+```
+
+> 此操作只会删除远程库和本地库的文件或文件夹，而本地库的工作区下的文件或文件夹不受影响。
+>
+> reference：https://www.cnblogs.com/wangwangwangMax/p/16349383.html
