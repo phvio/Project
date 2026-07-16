@@ -86,7 +86,7 @@ git merge [branch name] # 将指定分支合并到当前分支下
 
 ```shell
 git remote -v # 查看远程库
-git remote add [alias] [address] # 给远程库奇艺哥别名
+git remote add [alias] [address] # 给远程库取一个别名
 ```
 
 ## 推送本地库到远程库
