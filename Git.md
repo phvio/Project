@@ -1,3 +1,5 @@
+# Git
+
 ## 安装Git
 
 ```shell
@@ -44,5 +46,37 @@ git commit -m [version message] [filename]
 ```shell
 git reflog # 查看日志
 git log # 查看详细日志
+```
+
+## 版本穿梭
+
+```shell
+git reset --hard [version number] # 穿梭到指定版本号
+```
+
+# Branch
+
+##  查看分支
+
+```shell
+git branch -v
+```
+
+## 创建分支
+
+```shell
+git branch [branch name]
+```
+
+## 切换分支
+
+```shell
+git checkout [branch name]
+```
+
+## 合并分支
+
+```shell
+git merge [branch name] # 在目标分支使用该命令合并
 ```
 
