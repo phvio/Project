@@ -80,3 +80,30 @@ git checkout [branch name]
 git merge [branch name] # 将指定分支合并到当前分支下
 ```
 
+# GitHub
+
+## 创建远程库别名
+
+```shell
+git remote -v # 查看远程库
+git remote add [alias] [address] # 给远程库奇艺哥别名
+```
+
+## 推送本地库到远程库
+
+```shell
+git push [alias] [branch name] # branch name是指本地库的分支
+```
+
+## 拉取远程库到本地库
+
+```shell
+git pull [alias] [branch name] # branch name是指远程库的分支
+```
+
+## 克隆远程库到本地库
+
+```shell
+git clone [address] 
+```
+
