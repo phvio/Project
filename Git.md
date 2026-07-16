@@ -77,6 +77,6 @@ git checkout [branch name]
 ## 合并分支
 
 ```shell
-git merge [branch name] # 在目标分支使用该命令合并
+git merge [branch name] # 将指定分支合并到当前分支下
 ```
 
