@@ -129,6 +129,4 @@ git commit -m "delete"
 git push Project main
 ```
 
-> 此操作只会删除远程库和本地库的文件或文件夹，而本地库的工作区下的文件或文件夹不受影响。
->
 > reference：https://www.cnblogs.com/wangwangwangMax/p/16349383.html
