@@ -1,0 +1,24 @@
+{
+    "name": "Lab 0",
+    "endpoint": "cal/cs61a/su26/lab00",
+    "src": [
+        "lab00.py"
+    ],
+    "tests": {
+        "lab*.py": "doctest",
+        "tests/*.py": "ok_test"
+    },
+    "default_tests": [
+        "twenty_twenty_six",
+        "python-basics",
+        "presem_survey"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}
