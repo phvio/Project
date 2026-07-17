@@ -1,0 +1,1 @@
+该项目暂时由Claude Code独家提供，用以初次体验Vibe Coding，你别说，还挺爽的（嘿嘿～）
