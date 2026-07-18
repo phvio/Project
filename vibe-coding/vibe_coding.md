@@ -19,8 +19,6 @@ npm -v # Should print "11.16.0".
 
 > 参考链接：https://nodejs.org/en/download
 
-
-
 ## Claude Code安装
 
 ```shell
@@ -67,3 +65,21 @@ vim settings.json
 claude #启动claude code
 exit / Ctrl + D（两次）#退出claude
 ```
+
+> 参考链接：https://www.yuque.com/xxcls/vibecoding（感谢老师的无私奉献！）
+
+
+
+## 入门项目
+
+```tex
+我需要一款APP，名字叫做生活财务小管家。我不懂编程技术，并且是首次使用Claude Code，请你帮我设计产品文档，并记录到claude.md文件中。
+
+这款APP需要满足以下条件：
+1. 可以在Windows和Mac电脑上；
+2. APP的主要功能为记录用户的每一笔支出和收入，并且能够记录该笔交易的分类，由你设计交易类别，希望该分类能够满足较为频繁的简单日常交易。
+3. 技术栈选型由你决定，请给出多种方案供我选择。
+
+请注意，作为初次使用Claude Code的用户，我并不懂得技术实现，无法提供更多详细细节，所以请你设计多套方案，并提供详细指导说明，最后将该要求详细记录在claude.md文件中，务必在整个项目期内准守该要求。
+```
+
