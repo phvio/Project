@@ -6,7 +6,8 @@
   "author": "phvioplie",
   "main": "process/main.js",
   "scripts": {
-    "dev": "env -u ELECTRON_RUN_AS_NODE concurrently \"npx vite\" \"npx wait-on http://localhost:5173 && env -u ELECTRON_RUN_AS_NODE npx electron .\"",
+    "postinstall": "npm run rebuild",
+    "dev": "concurrently \"npx vite\" \"npx wait-on http://localhost:5173 && node scripts/dev-electron.mjs\"",
     "build": "npx vite build",
     "preview": "npx vite preview",
     "rebuild": "npx @electron/rebuild -f -w better-sqlite3 -v 33.4.11 --module-dir .",

@@ -571,6 +571,6 @@ CREATE TABLE categories (
 
 > 📌 **项目状态**: 阶段 1-4 已完成 ✅ | 阶段 5（打包发布）待进行
 >
-> 启动方式: `cd vibe-coding/keep-accounts && unset ELECTRON_RUN_AS_NODE && npm run dev`
+> 启动方式: `cd vibe-coding/keep-accounts && npm run dev`
 >
 > 打包 macOS: `npm run package:mac` | 打包 Windows: `npm run package:win`
